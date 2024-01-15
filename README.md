@@ -8,7 +8,7 @@ Repository for studies &amp; simulations.
 
 ```md
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 pip install django
 django-admin startproject project .
 ```
