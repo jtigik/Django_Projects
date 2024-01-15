@@ -1,7 +1,8 @@
 # Django_Projects
+
 Repository for studies &amp; simulations.
 
-# Todos os projetos iniciam assim
+## Todos os projetos iniciam assim
 
 ## Iniciar o projeto Django
 
@@ -28,4 +29,3 @@ git add .
 git commit -m 'Mensagem'
 git remote add origin https://github.com/jtigik/Django_Projects.git
 ```
-
