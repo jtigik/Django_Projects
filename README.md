@@ -29,3 +29,17 @@ git add .
 git commit -m 'Mensagem'
 git remote add origin https://github.com/jtigik/Django_Projects.git
 ```
+
+## Migrando a base de dados do Django
+
+```txt
+python manage.py makemigrations
+python manage.py migrate
+```
+
+## Criando e modificando a senha de um super usuário Django
+
+````txt
+python manage.py createsuperuser
+python manage.py changepassword USERNAME
+```
