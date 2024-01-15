@@ -39,7 +39,7 @@ python manage.py migrate
 
 ## Criando e modificando a senha de um super usuário Django
 
-````txt
+```txt
 python manage.py createsuperuser
 python manage.py changepassword USERNAME
 ```
