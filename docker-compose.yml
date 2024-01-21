@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+  mysql_agenda:
+    container_name: mysql_agenda
+    hostname: mysql_agenda
+    image: mysql:8
+    restart: always
+    command:
+      - --authentication-policy=mysql_native_password
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --innodb_force_recovery=0
+    volumes:
+      - ./mysql_agenda:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: '874592'
+      MYSQL_DATABASE: dev1m231_3
+      MYSQL_USER: root
+      MYSQL_PASSWORD: '874592'
+      TZ: America/Sao_Paulo
