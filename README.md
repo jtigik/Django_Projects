@@ -8,7 +8,7 @@ Repository for studies &amp; simulations.
 
 ```md
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 pip install django
 django-admin startproject project .
 ```
@@ -39,7 +39,7 @@ python manage.py migrate
 
 ## Criando e modificando a senha de um super usuário Django
 
-````txt
+```txt
 python manage.py createsuperuser
 python manage.py changepassword USERNAME
 ```
